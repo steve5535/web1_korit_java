@@ -2,7 +2,7 @@ package _01_Print;
 
 public class TypeCasting {
     public static void main(String[] args) {
-        // (자료)형변환: 데티어 타입을 다른 타입을 변경
+        // (자료)형변환: 데이터 타입을 다른 타입으로 변경
 
         // 큰 -> 작은: 넘칠 수 있음 -> 데이터유실 가능성(명시적 형변환)
         // 작은 -> 큰: 데이터유실 가능성 x(자동 형변환
