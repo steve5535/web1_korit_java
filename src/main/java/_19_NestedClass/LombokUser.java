@@ -11,7 +11,7 @@ import lombok.Data;
 
 // 알아서 컴파일할때 코드를 추가해줌
 @Builder // 빌더
-@AllArgsConstructor // 모든필드 받아주는 생성다
+@AllArgsConstructor // 모든필드 받아주는 생성자
 @Data // 게터, 세터, toString, equals, hashCode 작성
 public class LombokUser {
     private String username;
