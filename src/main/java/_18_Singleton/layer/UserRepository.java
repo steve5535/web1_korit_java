@@ -4,7 +4,7 @@ import java.io.*;
 
 // 데이터베이스 연결(+쿼리)
 // DB대신 텍스트 파일을 이용
-public class UserRepository {
+public class UserRepository implements UserRepo {
     public static UserRepository instance = new UserRepository();
     private UserRepository() {};
     public static UserRepository getInstance() {
